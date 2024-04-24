@@ -1,0 +1,22 @@
+{
+  "name": "voter",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "node --loader=ts-node/esm index.ts",
+    "ganache": "./ganache.sh",
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "bignumber.js": "^9.1.2",
+    "ganache": "^7.9.2",
+    "web3": "^4.8.0"
+  }
+}
